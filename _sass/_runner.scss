@@ -1,0 +1,13 @@
+.highlight {
+    pre {
+        margin-bottom: 0;
+    }
+    .runner {
+        background-color: lighten(#404040, 70%);
+        text-align: right;
+
+        .button {
+            margin-left: 12px;
+        }
+    }
+}

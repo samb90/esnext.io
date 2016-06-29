@@ -22,12 +22,15 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$yellow-color: rgba(240, 219, 79, 1.0);
+$yellow-color-dark: darken($yellow-color, 15%);
+$yellow-color-darker: darken($yellow-color, 10%);
+
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
 
 
 // Use media queries like this:
@@ -49,5 +52,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "runner"
 ;
