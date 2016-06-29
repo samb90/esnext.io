@@ -14,12 +14,6 @@ let x = 'world';
 }
   
 console.log(x);
-
-class Test extends Component {
-  constructor() {
-    super();
-  }
-}
 {% endhighlight %}
 
 The output of this code running will be 'hello world'. Redefining the variable x inside of a new scope means it doesn't affect the variable in the outer scope. If we were to run the same code using the var keyword instead then the output would be 'hello hello'.
